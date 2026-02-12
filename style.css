@@ -1,0 +1,76 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#header{
+    position: relative;
+    width: 100%;
+}
+
+#header img{
+    width: 100%;
+    display: block;
+}
+
+.bday-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, -75%);
+  font-family: 'Great Vibes', cursive;
+  font-size: clamp(40px, 8vw, 90px);
+  color: #8b1a1a; /* deep romantic red */
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.15);
+  letter-spacing: 1px;
+}
+
+.gift-btn{
+  max-height: 100%;
+  position: absolute;
+  top: 55%;
+  left: 45%;
+  padding: 12px 28px;
+  font-size: 18px;
+  border: none;
+  border-radius: 25px;
+  background: crimson;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#alekhsir{
+  display: none; /* hidden at start */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+}
+
+#giftImage{
+  width: 300px;
+  border-radius: 10px;
+}
+
+#header img{
+    max-width: 100%;
+    height: 100vh;
+}
+
+#teaseMsg {
+  position: fixed;
+  top: 70%;
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: crimson;
+}
+
