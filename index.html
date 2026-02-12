@@ -31,8 +31,9 @@
         </h1> -->
         <button class="gift-btn">🎁 Gift</button>
         <div id="alekhsir">
-        <img id="giftImage" src="alekh sir.webp" alt="Gift" style="width: 100%;">
-        </div>
+        <video id="giftVideo" autoplay loop muted>
+    <source src="niggazonegif.mp4" type="video/mp4">
+  </video>
         <script>
         const btn = document.querySelector(".gift-btn");
         const img = document.getElementById("giftImage");
@@ -54,7 +55,7 @@
 
         setTimeout(() => {
       msg.textContent = "";
-    }, 2000);
+    }, 2500);
 
         const maxX = window.innerWidth - btn.offsetWidth;
         const maxY = window.innerHeight - btn.offsetHeight;
